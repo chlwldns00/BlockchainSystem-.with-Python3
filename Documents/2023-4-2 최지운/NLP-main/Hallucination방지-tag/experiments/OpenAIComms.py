@@ -25,7 +25,7 @@ class ChatUnit:
         return {"role":self.role.value, "content": self.content}
 
 class OpenAIComms:
-    openai.api_key = "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"
+    openai.api_key = "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"
     engines:List = ["text-davinci-003", "davinci", "text-curie-001", "text-babbage-001", "text-ada-001"]
     engine:str = engines[0]
     max_tokens:int = 30 # The maximum number of tokens to generate. Requests can use up to 2048 tokens shared between prompt and completion. (One token is roughly 4 characters for normal English text)
